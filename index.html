@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./assets/shooting-star.png" type="image/x-icon">
+    <title>Blog Daily</title>
+</head>
+<body>
+    <nav id="home">
+        <img src="./assets/moco lab. (9).png" alt="">
+    </nav>
+    <div>
+        <div id="container">
+            <h1>Daily Motivational Quote</h1>
+            <p id="quote">Click the button to see a motivational quote!</p>
+            <div class="btn-container">
+                <button class="btn-quote" id="btn-quote" onclick="showQuote()">Show Quote</button>
+                <button class="btn-quote" onclick="copyQuote()">Copy Quote</button>
+            </div>
+        </div>
+        <div class="quote-motivation">
+            <h2>Believe in your dreams</h2>
+            <p>"Believe in yourself and your abilities. Every step, no matter how small, brings you closer to your dreams. Don’t be afraid to take risks, to face challenges, and to keep pushing forward. The journey may be tough, but your determination will light the way. Remember, the best version of yourself is waiting on the other side of fear. Keep going – you've got this!"</p>
+        </div>
+    
+        <!-- <section class="book-container">
+            <div>
+                <h3>E-book</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ratione cupiditate quidem ducimus aliquam, quam natus nihil necessitatibus. Quidem enim vel mollitia libero est nobis! Impedit possimus totam odit perferendis.</p>
+                <a href="http://">Clique Aqui</a>
+            </div>
+            <div>
+                <h3>Books</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit facilis quas, fuga a iusto quo hic beatae non tenetur voluptas fugit. Debitis incidunt voluptatibus ipsum fuga? Expedita, velit unde.</p>
+                <a href="http://">Clique Aqui</a>
+            </div>
+        </section> -->
+    </div>
+    <div class="news-title"><h2>News</h2></div>
+    <div class="news-container">
+        <!-- Área principal de notícias -->
+        <main class="main-content">
+            <article class="news-card">
+                <img src="./assets//tech-hibrida.jpg" alt="Imagem da notícia">
+                <h2>Uma tendência tecnologica é..</h2>
+                <p>Ela pode combinar diferentes mecanismos de computação e outros...</p>
+                <a href="#tech">Leia mais...</a>
+            </article>
+
+            <article class="news-card">
+                <img src="./assets//carros-avenida.jpg" alt="Imagem da notícia">
+                <h2>Carros em 2025, fique atento...</h2>
+                <p>O mercado automóvel está a passar por uma transformação profunda...</p>
+                <a href="#cars">Leia mais...</a>
+            </article>
+
+            <article class="news-card">
+                <img src="./assets/selic-moeda-real.jpg" alt="Imagem da notícia">
+                <h2>Nova Alta da Taxa Selic, para quanto foi?</h2>
+                <p>A taxa Selic é a taxa básica de juros da economia brasileira, servindo como referência...</p>
+                <a href="#selic">Leia mais...</a>
+            </article>
+
+            <!-- Adicione novas notícias copiando este bloco abaixo -->
+            <article class="news-card">
+                <img src="./assets//trabalho-dicas.jpg" alt="Imagem da notícia">
+                <h2>Trabalho: organize sua rotina já! com <a href="#job">Dicas</a></h2>
+                <p>O trabalho é uma parte fundamental da vida de qualquer pessoa, pois...</p>
+                <a href="#job">Leia mais...</a>
+            </article>
+        </main>
+
+        <!-- Sidebar com categorias -->
+        <aside class="sidebar">
+            <h3>Categorias</h3>
+            <ul class="category-list">
+                <li><a href="#tech">Tecnologia</a></li>
+                <li><a href="#selic">Finanças</a></li>
+                <li><a href="#job">Trabalho</a></li>
+                <li><a href="#cars">Carros</a></li>
+                <!-- <li><a href="#">Ciência</a></li> -->
+            </ul>
+        </aside>
+    </div>
+    <div class="article-container">
+        <div id="selic" class="article-card">
+            <h3>
+                Confira para quanto foi a nova alta da Selic
+            </h3>
+            <p>
+                A taxa Selic é a taxa básica de juros da economia brasileira, servindo como referência para outras taxas de juros praticadas no país, como as de empréstimos, financiamentos e investimentos. Seu principal objetivo é auxiliar o Banco Central (BC) no controle da inflação, sendo um dos instrumentos mais importantes da política monetária.
+    
+    A Selic representa a taxa média de juros aplicada em operações compromissadas envolvendo títulos públicos federais, com prazo de um dia útil. Para manter essa taxa próxima ao valor estipulado, o Comitê de Política Monetária (Copom) do BC define uma meta, e o Banco Central atua no mercado de títulos públicos para alinhar a taxa efetiva ao objetivo estabelecido.
+    
+    O nome "Selic" vem do Sistema Especial de Liquidação e de Custódia, uma plataforma gerenciada pelo Banco Central que realiza a custódia e a negociação de títulos públicos federais. Essa infraestrutura é essencial para a segurança e eficiência das transações no mercado financeiro. Com a nova alteração desta semana a taxa selic foi para <b>14,25%</b>. <br><br>
+    Além disso, a Selic afeta os rendimentos de investimentos financeiros, especialmente aqueles atrelados à renda fixa, como Tesouro Direto, CDBs e fundos de renda fixa. Quando a taxa sobe, esses investimentos tendem a oferecer retornos mais atrativos, enquanto uma Selic mais baixa pode favorecer aplicações em renda variável, como ações.
+
+Outro impacto relevante da Selic está na dívida pública. Como o governo capta recursos por meio da emissão de títulos públicos, taxas de juros mais altas aumentam o custo da dívida, exigindo mais recursos para o pagamento de juros, o que pode impactar o orçamento público.
+
+Dessa forma, a Selic não influencia apenas o mercado financeiro, mas também a vida cotidiana das pessoas, afetando desde o custo do financiamento de uma casa ou carro até os rendimentos da poupança e outras aplicações.
+            </p>
+        </div>
+        <div id="job" class="article-card">
+            <h3>
+                A importância da Organização no Trabalho
+            </h3>
+            <p>
+                O trabalho é uma parte fundamental da vida de qualquer pessoa, pois é através dele que desenvolvemos nossas habilidades, contribuímos para a sociedade e alcançamos nossos objetivos pessoais e profissionais. No entanto, a rotina de trabalho pode ser desafiadora, com diversas demandas e prazos apertados. Por isso, saber administrar bem o tempo e as tarefas é essencial para manter a produtividade e evitar o estresse.
+
+Para garantir um dia de trabalho mais eficiente e equilibrado, é importante adotar algumas práticas que ajudam na organização e no foco. Algumas dessas estratégias incluem planejamento, definição de prioridades, eliminação de distrações e o uso inteligente de pausas.
+            </p>
+
+            <span>Dicas para um Dia de Trabalho Mais Produtivo</span>
+            
+            <p>
+<b>Planeje o seu dia com antecedência:</b>
+Antes de começar o dia, reserve alguns minutos para organizar suas tarefas. Isso ajuda a ter uma visão clara do que precisa ser feito e evita a sensação de estar sempre apagando incêndios. <br>
+
+<b>Priorize as tarefas mais importantes e urgentes:</b>
+Utilize a matriz de Eisenhower para diferenciar o que é urgente do que é importante. Assim, você consegue focar no que realmente traz resultados, em vez de gastar tempo com atividades menos relevantes. <br>
+
+<b>Defina metas claras e realistas:</b>
+Estabeleça objetivos diários, semanais e mensais que sejam alcançáveis. Isso mantém a motivação e permite medir o progresso ao longo do tempo. <br>
+
+<b>Elimine as distrações:</b>
+Identifique e reduza os fatores que roubam sua atenção, como redes sociais, notificações no celular ou interrupções frequentes. Técnicas como o método Pomodoro podem ajudar a manter o foco. <br>
+
+<b>Faça pausas regulares:</b>
+Trabalhar por longos períodos sem descanso pode levar à exaustão. Pequenas pausas ao longo do dia ajudam a manter a concentração e a criatividade. <br>
+
+<b>Aprenda a delegar:</b>
+Se você trabalha em equipe, confie nos seus colegas e distribua as tarefas de forma equilibrada. Isso evita sobrecarga e melhora a eficiência. <br>
+
+<b>Use ferramentas tecnológicas a seu favor:</b>
+Aplicativos de organização, como Trello, Notion e Google Agenda, podem ser grandes aliados na gestão do tempo e das tarefas. <br>
+
+<b>Aprenda a dizer não:</b>
+Saber recusar demandas que não agregam valor ao seu trabalho é essencial para evitar sobrecarga e manter o foco no que realmente importa. <br>
+<b>Cuide da sua saúde</b>
+Uma boa alimentação, sono de qualidade e a prática de exercícios físicos influenciam diretamente na produtividade e no bem-estar no trabalho.
+        </p>
+        </div>
+        <div id="tech" class="article-card">
+            <h3>
+                Computação Híbrida: A Nova Fronteira da Inovação Tecnológica
+            </h3>
+            <p>
+                A evolução da tecnologia tem levado à necessidade de soluções cada vez mais eficientes para lidar com grandes volumes de dados, processamento em tempo real e tarefas complexas que exigem alto desempenho computacional. Nesse cenário, a computação híbrida surge como um modelo inovador, combinando diferentes mecanismos de computação, armazenamento e rede para resolver problemas que antes eram considerados desafiadores ou até impossíveis. 
+            </p>
+            <span>O Que é Computação Híbrida?</span>
+            <p>
+                Computação híbrida refere-se à integração de múltiplas abordagens tecnológicas para otimizar o desempenho de sistemas computacionais. Isso pode envolver a combinação de:
+
+Computação em nuvem e local (on-premises): permitindo flexibilidade e escalabilidade sob demanda.
+
+Computação clássica e quântica: para solucionar problemas que vão além da capacidade dos processadores convencionais.
+
+Computação distribuída e centralizada: equilibrando velocidade, confiabilidade e eficiência energética. <br><br>
+A ideia central é aproveitar o melhor de cada tecnologia para criar ambientes mais poderosos, escaláveis e adaptáveis às demandas do mercado.
+            </p>
+            <span>Desafios e Barreiras da Computação Híbrida</span>
+            <p>
+                Apesar das inúmeras vantagens, a implementação da computação híbrida não é simples e envolve desafios consideráveis: <br><br>
+
+🚧 Complexidade e necessidade de habilidades especializadas: A integração de diferentes tecnologias exige profissionais altamente qualificados em áreas como IA, segurança cibernética, computação em nuvem e até computação quântica. <br>
+
+🚧 Segurança e riscos cibernéticos: Sistemas baseados em módulos autônomos podem aumentar vulnerabilidades, tornando essencial o desenvolvimento de novas estratégias de proteção de dados. <br>
+
+🚧 Custo elevado e tecnologias experimentais: Muitas das tecnologias envolvidas ainda estão em estágio de desenvolvimento e possuem custos elevados, tornando o acesso restrito a grandes empresas e centros de pesquisa. <br> 
+
+🚧 Orquestração e integração de sistemas: Para que a computação híbrida funcione de maneira eficiente, é necessário que todas as partes do sistema conversem entre si de forma integrada, o que pode ser um grande desafio técnico. <br><br>
+
+<b>Conclusão:</b> O Futuro da Computação Híbrida
+A computação híbrida representa um passo importante na evolução da tecnologia, permitindo que empresas e organizações explorem novas possibilidades antes inatingíveis. Apesar dos desafios, seu potencial para transformar a inteligência artificial, a automação e até mesmo a interação entre humanos e máquinas é imenso. <br>
+
+À medida que novas soluções são desenvolvidas e os custos diminuem, a computação híbrida deve se tornar uma realidade mais acessível e presente em diversos setores da sociedade, moldando o futuro da tecnologia e dos negócios. <br>
+            </p>
+        </div>
+        <div id="cars" class="article-card">
+            <h3>
+                Saiba tudo sobre carros em 2025
+            </h3>
+            <p>
+                O mercado automóvel está a passar por uma transformação profunda, impulsionada pelo crescimento dos veículos elétricos, avanços tecnológicos e novas regulamentações ambientais. 2025 promete ser um ano marcante para a indústria, e quem estiver a pensar em comprar um carro deverá estar atento às tendências que podem influenciar essa decisão.
+
+A eletrificação continua a ganhar força, com mais modelos elétricos a chegar ao mercado e uma infraestrutura de carregamento em constante evolução. <br> No entanto, a escolha entre um elétrico, um híbrido ou um veículo a combustão ainda depende de fatores como autonomia, custos de manutenção e incentivos fiscais. Enquanto os elétricos se tornam mais acessíveis e eficientes, os híbridos plug-in permanecem uma opção viável para quem não quer depender totalmente da rede de carregamento.
+
+A tecnologia também desempenha um papel cada vez mais relevante. Os modelos mais recentes trazem sistemas avançados de assistência à condução, conectividade melhorada e atualizações de software remotas, tornando a experiência ao volante mais segura e intuitiva. Além das marcas tradicionais, os fabricantes asiáticos estão a ganhar destaque no mercado europeu, oferecendo veículos inovadores e competitivos, especialmente no segmento elétrico. <br>
+
+Se 2025 é o ano para trocar de carro, estar informado sobre estas mudanças pode fazer toda a diferença na escolha certa.
+            </p>
+            <span>Escolha o melhor para 2025</span>
+            <p>
+                A escolha do carro ideal deve considerar as necessidades de cada condutor. Os SUVs continuam entre os modelos mais procurados, mas cresce a preferência por veículos mais compactos e eficientes, especialmente em áreas urbanas, onde a eletrificação se torna cada vez mais viável.
+
+Para quem percorre distâncias curtas e deseja reduzir os gastos com combustível, os elétricos e híbridos apresentam uma excelente alternativa. Já para quem precisa de um carro para viagens longas, os híbridos e os modelos a combustão ainda se destacam, especialmente porque, apesar da expansão da infraestrutura de carregamento, ela ainda não atende a todas as necessidades. <br><br>
+<b>Antes de decidir, é essencial considerar três fatores-chave:</b> <br><br>
+
+<b>Uso do veículo:</b> Avaliar se será destinado principalmente a deslocações urbanas, viagens longas ou um uso misto. <br>
+
+<b>Orçamento e custos de manutenção:</b> Além do valor de compra, é importante calcular gastos com combustível, manutenção e desvalorização.  <br>
+
+<b>Tendências e incentivos fiscais:</b> Ficar atento às vantagens oferecidas para determinados modelos, como benefícios fiscais para elétricos e híbridos.            
+</p>
+        </div>
+        <!-- <div id="#" class="article-card">
+            <h3></h3>
+            <p></p>
+        </div> -->
+    </div>
+    <script src="./scripts.js"></script>
+    <footer class="go-home">
+        <button class="btn-go-home">
+            <a href="#home">
+                <img src="./assets/arrow-fat-lines-up.png" alt="Seta para cima">
+            </a>
+        </button>
+    </footer>
+</body>
+</html>
