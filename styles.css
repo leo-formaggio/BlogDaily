@@ -24,7 +24,7 @@ body {
 
 #container {
     background: white;
-    margin-top: 40px;
+    margin: 40px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -196,7 +196,7 @@ body {
 .article-card {
     background: #fff;
     margin-bottom: 20px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
@@ -207,7 +207,7 @@ body {
 
     p {
     padding: 60px;
-    text-align: left;
+    text-align: justify;
     letter-spacing: 1.3px;
     line-height: 24px;
     font-size: 16px;
@@ -218,6 +218,10 @@ body {
         color: #0056b3;
         border-bottom: 2px solid #0056b3;
     }
+
+    .number {
+        color: #333;
+    }
 }
 
 @media (max-width: 768px) {
@@ -227,8 +231,9 @@ body {
     }
 
     .quote-motivation {
-        width: 400px;
+        width: 100%;
         flex-direction: column;
+        margin: 20px auto;
     }
     
     .news-container, .book-container {
@@ -238,16 +243,26 @@ body {
     .btn-quote {
         flex-direction: column;
     }
+
+    .article-card {
+        margin: auto;
+        padding: 5px;
+
+        p {
+            text-align: justify;
+        }
+    }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 413px) {
     #home img {
         flex-direction: column;
         margin: -70px auto;
     }
-    
+
     .quote-motivation {
-        width: 300px;
+        display: flex;
+        width: 100%;
         flex-direction: column;
     }
     
@@ -260,10 +275,15 @@ body {
         margin-bottom: 10px;
     }
     
-    .article-card p {
-        padding: 10px;
-        font-size: 14px;
-        text-align: justify;
+    .article-card {
+        width: 100%;
+        margin: auto;
+
+        p {
+            padding: 5px;
+            font-size: 13px;
+            text-align: justify;
+        }
     }
 
 }
