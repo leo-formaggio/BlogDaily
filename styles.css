@@ -22,9 +22,20 @@ body {
     margin: -80px 10px;
 }
 
+.update-blog {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 11px;
+    }
+}
+
 #container {
     background: white;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -57,10 +68,9 @@ body {
 }
 
 .quote-motivation {
-    width: 600px;
-    margin: 50px auto;
     display: flex;
     flex-direction: column;
+    margin: 50px auto;
 
     h2 {
         text-transform: uppercase;
@@ -69,6 +79,7 @@ body {
     }
 
     p {
+        margin: auto;
         letter-spacing: 2px;
     }
 }
@@ -171,7 +182,7 @@ body {
 }
 
 .category-list li {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .category-list a {
@@ -202,16 +213,16 @@ body {
 
 
     h3 {
-    color: darkblue;
+        color: darkblue;
     }
 
     p {
-    padding: 60px;
-    text-align: justify;
-    letter-spacing: 1.3px;
-    line-height: 24px;
-    font-size: 16px;
-    color: #555;
+        padding: 60px;
+        text-align: justify;
+        letter-spacing: 1.3px;
+        line-height: 24px;
+        font-size: 16px;
+        color: #555;
     }
 
     span {
@@ -237,6 +248,7 @@ body {
     }
     
     .news-container, .book-container {
+        display: flex;
         flex-direction: column;
     }
 
@@ -245,19 +257,21 @@ body {
     }
 
     .article-card {
+        width: 100%;
         margin: auto;
         padding: 5px;
 
         p {
+            
+            font-size: 13px;
             text-align: justify;
         }
     }
 }
 
-@media (max-width: 413px) {
+@media (min-width: 200px) {
     #home img {
         flex-direction: column;
-        margin: -70px auto;
     }
 
     .quote-motivation {
@@ -265,8 +279,13 @@ body {
         width: 100%;
         flex-direction: column;
     }
+
+    #quote {
+        font-size: 20px;
+    }
     
     .news-container, .book-container {
+        display: flex;
         flex-direction: column;
     }
 
@@ -281,11 +300,34 @@ body {
 
         p {
             padding: 5px;
-            font-size: 13px;
+            font-size: 12px;
             text-align: justify;
         }
     }
 
+}
+
+.use-term {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    gap: 10px;
+
+    h4 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 9px;
+    }
+}
+
+.trade-mark {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+    h4 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 9px;
+    }
 }
 
 .go-head, .btn-go-home {
@@ -294,4 +336,5 @@ body {
     right: 20px;
     cursor: pointer;
     border: none;
+    background-color: transparent;
 }
